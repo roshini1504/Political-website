@@ -1,0 +1,27 @@
+.App {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .splash-screen, .main-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .splash-screen {
+    background-color: white; /* White background for the splash screen */
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    /* Add more styles to your logo as needed */
+  }
+  
+  .main-page {
+    background-color: #f0f0f0; /* Background color for the main page */
+    text-align: center;
+  }

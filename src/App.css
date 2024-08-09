@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(92, 86, 86, 0.693);
+    color: #f1eaea;
+  }
+  
+  .container-fluid {
+    padding: 20px;
+  }
+  
+  .categories {
+    margin-bottom: 20px;
+  }
+  
+  .category-button {
+    padding: 10px 20px;
+    border: 1px solid rgb(229, 215, 215);
+    border-radius: 5px;
+    background-color: rgb(226, 11, 11);
+    cursor: pointer;
+    color: #ddd;
+    transition: background-color 0.3s;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  .category-button:hover {
+    color: #007bff;
+  }
+  
+  .category-button.active {
+    background-color: #0c0b0b;
+  }
+  
+  .data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .press-release-item {
+    border: 1px solid #c21010;
+    padding: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .press-release-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(203, 23, 23);
+  }
+  
+  .press-release-date {
+    font-size: 0.9rem;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .press-release-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .card {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #dc0e0eda;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #9c1414;
+    margin-bottom: 10px;
+  }
+  
+  .card-img-top {
+    width: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .upcoming-events, .social-stream {
+    margin-bottom: 20px;
+  }
+  
+  .bjp-live {
+    margin-top: 20px;
+  }
+  
+  .bjp-live .card-img-top {
+    margin-bottom: 10px; 
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: auto;
+    }
+  }
